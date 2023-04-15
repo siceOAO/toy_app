@@ -1,8 +1,9 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.1.3"
+ruby "3.2.2"
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "rails",           "7.0.4.3"
 gem "sassc-rails",     "2.1.2"
 gem "sprockets-rails", "3.4.2"
